@@ -11,15 +11,16 @@ This repository provides rebuilt Yaru theme packages that work correctly with th
 
 More information about the issue can be found here:
 
-https://forums.raspberrypi.com/viewtopic.php?t=373028
+* [GUIDE: Install GNOME on Raspberry Pi OS Lite](https://forums.raspberrypi.com/viewtopic.php?t=373028#p2233233)
+* [FIX: Yaru theme .deb for Raspberry Pi OS (Debian 13, GNOME 48)](https://forums.raspberrypi.com/viewtopic.php?t=393000#p2344104)
 
 ## Included packages
 
-* yaru-theme-gtk
-* yaru-theme-gnome-shell
-* yaru-theme-icon
-* yaru-theme-sound
-* yaru-theme-unity
+* [yaru-theme-gtk](https://github.com/wobbo/yaru-themes-debian-trixie/releases/download/v1/yaru-theme-gtk_25.04.1-0ubuntu1_all.deb)
+* [yaru-theme-gnome-shell](https://github.com/wobbo/yaru-themes-debian-trixie/releases/download/v1/yaru-theme-gnome-shell_25.04.1-0ubuntu1_all.deb)
+* [yaru-theme-icon](https://github.com/wobbo/yaru-themes-debian-trixie/releases/download/v1/yaru-theme-icon_25.04.1-0ubuntu1_all.deb)
+* [yaru-theme-sound](https://github.com/wobbo/yaru-themes-debian-trixie/releases/download/v1/yaru-theme-sound_25.04.1-0ubuntu1_all.deb)
+* [yaru-theme-unity](https://github.com/wobbo/yaru-themes-debian-trixie/releases/download/v1/yaru-theme-unity_25.04.1-0ubuntu1_all.deb)
 
 ## Install (direct download)
 
