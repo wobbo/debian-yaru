@@ -7,6 +7,9 @@ This causes visual issues in the desktop environment.
 
 This repository provides rebuilt Yaru theme packages that work correctly with the GNOME version used in Debian Trixie.
 
+![Debian Trixie Yaru theme](https://wobbo.org/screenshots/20251020_bug_01.png)
+
+
 Download: https://github.com/wobbo/debian-yaru/releases/tag/v1
 
 ## Problem description
@@ -52,7 +55,6 @@ or
 ```bash
 sudo dpkg -i yaru-theme-*.deb
 ```
-![Debian Trixie Yaru theme](https://wobbo.org/screenshots/20251020_bug_01.png)
 
 ## Tested on
 
