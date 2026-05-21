@@ -2,6 +2,13 @@
 
 Corrected Yaru theme packages for **GNOME on Debian Trixie**.
 
+> **Important note about Ubuntu 26.04 packages**
+>
+> The Ubuntu 26.04 `yaru-theme-gnome-shell` and `yaru-theme-gtk` packages do **not** work correctly on Debian Trixie / GNOME.
+> For those two packages, this repository still uses the Ubuntu **25.04** versions.
+>
+> The icon, sound and unity packages can use the Ubuntu **26.04** versions.
+
 Debian Trixie currently ships a Yaru theme version that does not match the GNOME version in the distribution.
 This causes visual issues in the desktop environment.
 
@@ -42,6 +49,14 @@ wget https://github.com/wobbo/debian-yaru/releases/download/v1/yaru-theme-unity_
 sudo apt install ./yaru-theme-*.deb
 ```
 Download and install the Yaru theme packages Ubuntu 26.04:
+
+> **Note:** the Ubuntu 26.04 `gnome-shell` and `gtk` Yaru packages are currently not working correctly on Debian Trixie / GNOME.
+> Therefore this install set still uses the Ubuntu **25.04** packages for:
+>
+> * `yaru-theme-gnome-shell`
+> * `yaru-theme-gtk`
+>
+> The other Yaru packages use the Ubuntu **26.04** versions.
 
 ```bash
 wget https://github.com/wobbo/debian-yaru/releases/download/v2/yaru-theme-gnome-shell_26.04.5.1ubuntu_all.deb
