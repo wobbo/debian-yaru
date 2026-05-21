@@ -1,0 +1,11 @@
+[Unit]
+Description=Auto-apply Yaru color
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/gnome-auto-yaru.sh
+Restart=on-failure
+
+[Install]
+WantedBy=graphical-session.target
