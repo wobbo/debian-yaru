@@ -30,7 +30,7 @@ More information about the issue can be found here:
 
 ## Install (direct download)
 
-Download and install the Yaru theme packages:
+Download and install the Yaru theme packages Ubuntu 25.04:
 
 ```bash
 wget https://github.com/wobbo/debian-yaru/releases/download/v1/yaru-theme-gnome-shell_25.04.1-0ubuntu1_all.deb
@@ -38,6 +38,17 @@ wget https://github.com/wobbo/debian-yaru/releases/download/v1/yaru-theme-gtk_25
 wget https://github.com/wobbo/debian-yaru/releases/download/v1/yaru-theme-icon_25.04.1-0ubuntu1_all.deb
 wget https://github.com/wobbo/debian-yaru/releases/download/v1/yaru-theme-sound_25.04.1-0ubuntu1_all.deb
 wget https://github.com/wobbo/debian-yaru/releases/download/v1/yaru-theme-unity_25.04.1-0ubuntu1_all.deb
+
+sudo apt install ./yaru-theme-*.deb
+```
+Download and install the Yaru theme packages Ubuntu 26.04:
+
+```bash
+wget https://github.com/wobbo/debian-yaru/releases/download/v2/yaru-theme-gnome-shell_26.04.5.1ubuntu_all.deb
+wget https://github.com/wobbo/debian-yaru/releases/download/v2/yaru-theme-gtk_26.04.5.1ubuntu_all.deb
+wget https://github.com/wobbo/debian-yaru/releases/download/v2/yaru-theme-icon_26.04.5.1ubuntu_all.deb
+wget https://github.com/wobbo/debian-yaru/releases/download/v2/yaru-theme-sound_26.04.5.1ubuntu_all.deb
+wget https://github.com/wobbo/debian-yaru/releases/download/v2/yaru-theme-unity_26.04.5.1ubuntu_all.deb
 
 sudo apt install ./yaru-theme-*.deb
 ```
