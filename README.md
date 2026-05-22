@@ -23,17 +23,20 @@ This repository provides rebuilt Yaru theme packages that work correctly with th
         
 
 ## Themes Ubunbu 25.04    ⟶    26.04
-Download: https://github.com/wobbo/debian-yaru/releases/tag/v1 or https://github.com/wobbo/debian-yaru/releases/tag/v2
+
+* [Ubuntu 25.04 Theme](https://github.com/wobbo/debian-yaru/releases/tag/v1)
+* [Ubuntu 26.04 Theme](https://github.com/wobbo/debian-yaru/releases/tag/v2)
+* [GUIDE: Install GNOME on Raspberry Pi OS Lite](https://forums.raspberrypi.com/viewtopic.php?t=373028#p2233233)
+* [FIX: Yaru theme .deb for Raspberry Pi OS (Debian 13, GNOME 48)](https://forums.raspberrypi.com/viewtopic.php?t=393000#p2344104)
+* [LibreOffice Yaru Theme for Raspberry Pi OS Trixie (Debian 13)](https://forums.raspberrypi.com/viewtopic.php?t=393058#p2344404)
+
+
 ![Debian Trixie Yaru theme](https://wobbo.org/screenshots/202026-05-22_Yaru-25_Yaru-26_mini.webp)
 
         
 
-## Problem description
 
-More information about the issue can be found here:
 
-* [GUIDE: Install GNOME on Raspberry Pi OS Lite](https://forums.raspberrypi.com/viewtopic.php?t=373028#p2233233)
-* [FIX: Yaru theme .deb for Raspberry Pi OS (Debian 13, GNOME 48)](https://forums.raspberrypi.com/viewtopic.php?t=393000#p2344104)
 
         
 
