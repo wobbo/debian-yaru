@@ -66,6 +66,25 @@ This repository provides rebuilt Yaru theme packages that work correctly with th
 
         
 
+## Ubuntu 26.10.3 icons and sounds (Debian 13 / GNOME 48)
+
+The official Ubuntu **26.10.3** Yaru icon and sound packages are available. On Debian 13, keep the known-working **25.04 GTK and GNOME Shell** packages: the 26.10 GTK/Shell versions have **not** been verified for this configuration.
+
+Official Ubuntu downloads (not yet uploaded as a new release in this repository):
+
+* [Yaru icons 26.10.3](https://eu.edge.kernel.org/ubuntu/pool/main/y/yaru-theme/yaru-theme-icon_26.10.3ubuntu_all.deb)
+* [Yaru sounds 26.10.3](https://eu.edge.kernel.org/ubuntu/pool/main/y/yaru-theme/yaru-theme-sound_26.10.3ubuntu_all.deb)
+
+To upgrade just icons and sounds (download both files to the same folder first):
+
+```bash
+sudo apt-mark unhold yaru-theme-icon yaru-theme-sound
+sudo apt install ./yaru-theme-icon_26.10.3ubuntu_all.deb ./yaru-theme-sound_26.10.3ubuntu_all.deb
+sudo apt-mark hold yaru-theme-icon yaru-theme-sound
+```
+
+**Grey/slate GNOME accent:** official Yaru 26.10 does not provide a dedicated `Yaru-gray`, `Yaru-grey` or `Yaru-slate` icon directory. The auto-Yaru scripts now detect and select a *separately installed* grey Yaru icon theme by those names, if present (light/dark independently). Without such a theme they safely fall back to `Yaru` / `Yaru-dark`, rather than choosing an icon theme that does not exist.
+
 ## Install (direct download)
 
 Download and install the Yaru theme packages Ubuntu 25.04:
