@@ -36,7 +36,7 @@ accent_to_suffix() {
     teal)           echo "-prussiangreen" ;;
     olive)          echo "-olive" ;;
     brown)          echo "-wartybrown" ;;
-    slate|gray|grey) echo "" ;;  # no grey Yaru; fall back to Orange/Yaru
+    slate|gray|grey) echo "" ;;  # no official grey GTK variant; prefer base Yaru
     *)              echo "" ;;
   esac
 }
@@ -61,6 +61,20 @@ apply_theme() {
 
   icon_light="Yaru${suffix}"
   icon_dark="Yaru${suffix}-dark"
+
+  # Grey/slate is a GNOME accent, not an official Yaru icon variant.
+  # Use an optional locally installed grey Yaru icon theme when present.
+  # Otherwise the existing Yaru/Yaru-dark icons remain in use.
+  if [[ "$accent" == "slate" || "$accent" == "gray" || "$accent" == "grey" ]]; then
+    local variant
+    for variant in Yaru-slate Yaru-gray Yaru-grey; do
+      if icon_exists "$variant" || icon_exists "${variant}-dark"; then
+        icon_exists "$variant" && icon_light="$variant"
+        icon_exists "${variant}-dark" && icon_dark="${variant}-dark"
+        break
+      fi
+    done
+  fi
 
   # Shell has NO colored variants: keep it on base Yaru/Yaru-dark
   shell_light="Yaru"
